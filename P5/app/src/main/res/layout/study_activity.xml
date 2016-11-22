@@ -28,8 +28,21 @@
         android:id="@+id/studyAnswerFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout="@layout/study_answer_fragment"
+        tools:layout="@layout/study_answer_fragment" />
 
 
+    <fragment
+        android:id="@+id/studyClickFragment"
+        tools:layout="@layout/study_click_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- done programmatically!
+    <fragment
+        android:id="@+id/studyFeedbackFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/study_feedback_fragment"/>
+    -->
 
 </RelativeLayout>

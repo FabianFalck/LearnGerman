@@ -29,15 +29,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <Button
-        android:id="@+id/progress_button"
-        android:text="@string/StartActivity_progress"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignTop="@id/settings_button"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentLeft="true"/>
-
     <!-- Settings button is the centre of the three buttons -->
     <Button
         android:id="@+id/settings_button"
@@ -47,6 +38,15 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="100dp"/>
+
+    <Button
+        android:id="@+id/progress_button"
+        android:text="@string/StartActivity_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/settings_button"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"/>
 
     <Button
         android:id="@+id/help_button"

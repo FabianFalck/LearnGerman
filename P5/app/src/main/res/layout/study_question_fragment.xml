@@ -6,7 +6,7 @@
     <!-- TBD: adjust the text in size dynamically depending on the length of the given text-->
     <TextView
         android:id="@+id/textView_question"
-        android:text="<GIVEN TEXT> MULTILINE MULTILINE multiline"
+        android:text="GIVEN TEXT MULTILINE MULTILINE multiline multiline multiline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
