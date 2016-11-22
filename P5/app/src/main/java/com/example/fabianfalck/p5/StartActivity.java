@@ -14,15 +14,17 @@ import android.content.Context;
 
 public class StartActivity extends AppCompatActivity {
 
+    //
     private Button studyButton;
 
-    protected View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    protected View onCreate(LayoutInflater inflater, ViewGroup container,
+                            Bundle savedInstanceState) {
 
+        setContentView(R.layout.start_activity);
         View view = inflater.inflate(R.layout.start_activity, container, false);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.start_activity);
 
+        /*
         studyButton = (Button) view.findViewById(R.id.study_button);
         final Context context = studyButton.getContext();
         studyButton.setOnClickListener(
@@ -33,15 +35,8 @@ public class StartActivity extends AppCompatActivity {
                     }
                 }
         );
-
+        */
         return view;
+
     }
-
-
-
-
-
-
-
-
 }
