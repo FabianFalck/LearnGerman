@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:id="@+id/studyQuestionFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/study_question_fragment"
+        android:name="com.example.fabianfalck.p5.StudyQuestionFragment"
+         />
+
+    <TextView
+        android:text="@string/StudyActivity_translationQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:id="@+id/StudyActivity_translationQuestion"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+
+    <fragment
+        android:id="@+id/studyAnswerFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/study_answer_fragment"
+
+
+
+</RelativeLayout>
