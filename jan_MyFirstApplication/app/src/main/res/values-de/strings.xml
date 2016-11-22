@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meine Erste Applikation</string>
+    <string name="hello_world">Lokalisiertes Hallo Welt</string>
+    <string name="edit_message">Gebe eine Nachricht ein</string>
+    <string name="button_send">Eingeben</string>
+    <string name="default_shit">Kein Text eingegeben.</string>
+    <string name="key_off">Irgendwas könnte jetzt Offline sein</string>
+    <string name="key_on">irgendwas könnte jetzt Online sein</string>
+    <string name="hello_blank_fragment">Hallo Fragment</string>
+    <string name="hello_blank_fragment_2">Hallo zweites Fragment</string>
+    <string name="noodle">Nudel</string>
+    <string name="title">Hallo Titel</string>
+    <string name="subtitle">muhahahahahhahaha</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_favorite">Favoriten</string>
+    <string name="button_default_mode">Starten</string>
+    <string name="expand_wordfields">Wortfelder auswählen</string>
+</resources>
