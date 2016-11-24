@@ -140,7 +140,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        getSupportActionBar().setTitle("Hallo");
 
         int title;
 
@@ -195,6 +194,11 @@ public class MainActivity extends AppCompatActivity
     public void mainLearnButton(View view)
     {
         //TODO read the selected wordfields
+        // set the toolbar title
+        if (getSupportActionBar() != null)
+        {
+            getSupportActionBar().setSubtitle(R.string.act_learn);
+        }
 
         FragmentTransaction fmt = getSupportFragmentManager().beginTransaction();
         Fragment fragment = new LearnFragment();
