@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CD2626</color>
+    <color name="colorPrimaryDark">#8B1A1A</color>
+    <color name="colorAccent">#8B1A1A</color>
+    <color name="OLDOLDcolorAccent">#9B9500</color>
+    <color name="OLDcolorPrimary">#9B9500</color>
+    <color name="OLDcolorPrimaryDark">#8B8000</color>
+    <color name="OLDcolorAccent">#CD2626</color>
+    <color name="colorBorder">#444444</color>
+    <color name="colorBackground">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cccccc</color>
+    <color name="black">#000000</color>
+    <color name="dark">#333333</color>
+</resources>

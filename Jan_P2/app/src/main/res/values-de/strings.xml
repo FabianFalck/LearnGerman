@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deutsch lernen</string>
+    <string name="act_about">Impressum</string>
+    <string name="act_categories">Kategorien</string>
+    <string name="act_context">Im Kontext</string>
+    <string name="act_cue_cards">Karteikarten</string>
+    <string name="act_definition">Definitionen</string>
+    <string name="act_infos">Links und Infos</string>
+    <string name="act_learn">Lernen!</string>
+    <string name="act_numbers">Zahlen</string>
+    <string name="act_picture_puzzel">Bildferrätsel</string>
+    <string name="act_progress">Fortschritt</string>
+    <string name="act_sayings">Sprichwörter</string>
+    <string name="act_settings">Einstellungen</string>
+    <string name="act_synonyms">Synonyme</string>
+    <string name="expand_wordfields">Wortfelder wählen</string>
+    <string name="hello_blank_fragment">FU</string>
+</resources>

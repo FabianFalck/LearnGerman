@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_drawer_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/act_learn"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_learn"/>
+        <item
+            android:id="@+id/act_context"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_context" />
+        <item
+            android:id="@+id/act_categories"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_categories" />
+        <item
+            android:id="@+id/act_numbers"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_numbers" />
+        <item
+            android:id="@+id/act_sayings"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_sayings" />
+        <item
+            android:id="@+id/act_synonyms"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_synonyms" />
+        <item
+            android:id="@+id/act_picture_puzzel"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_picture_puzzel" />
+        <item
+            android:id="@+id/act_cue_cards"
+            android:icon="@drawable/ic_action_study"
+            android:title="@string/act_cue_cards" />
+    </group>
+
+    <group
+        android:id="@+id/nav_drawer_group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/act_definition"
+            android:icon="@drawable/ic_action_definition"
+            android:title="@string/act_definition" />
+        <item
+            android:id="@+id/act_progress"
+            android:icon="@drawable/ic_action_progress"
+            android:title="@string/act_progress" />
+        <item
+            android:id="@+id/act_infos"
+            android:icon="@drawable/ic_action_infos"
+            android:title="@string/act_infos" />
+        <item
+            android:id="@+id/act_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/act_settings" />
+        <item
+            android:id="@+id/act_about"
+            android:icon="@drawable/ic_action_about"
+            android:title="@string/act_about" />
+    </group>
+
+</menu>
